@@ -2,7 +2,7 @@
 function pae_add_custom_box() {
     add_meta_box(
         'pae_sectionid',
-        __('Product Extra Items and Pricing', 'product-add-ons-extras'),
+        __('Product Extra Items and Pricing', 'products-extra-items-and-pricing'),
         'pae_custom_box_html',
         'product'
     );
@@ -18,15 +18,15 @@ function pae_custom_box_html($post) {
         foreach ($addons as $index => $addon) {
             ?>
             <div class="pae_addon">
-                <input type="text" name="pae_addons[<?php echo $index; ?>][name]" value="<?php echo esc_attr($addon['name']); ?>" placeholder="<?php _e('Addon Name', 'product-add-ons-extras'); ?>" />
-                <input type="number" name="pae_addons[<?php echo $index; ?>][price]" value="<?php echo esc_attr($addon['price']); ?>" placeholder="<?php _e('Addon Price', 'product-add-ons-extras'); ?>" />
-                <button class="remove_addon"><?php _e('Remove', 'product-add-ons-extras'); ?></button>
+                <input type="text" name="pae_addons[<?php echo $index; ?>][name]" value="<?php echo esc_attr($addon['name']); ?>" placeholder="<?php _e('Addon Name', 'products-extra-items-and-pricing'); ?>" />
+                <input type="number" name="pae_addons[<?php echo $index; ?>][price]" value="<?php echo esc_attr($addon['price']); ?>" placeholder="<?php _e('Addon Price', 'products-extra-items-and-pricing'); ?>" />
+                <button class="remove_addon"><?php _e('Remove', 'products-extra-items-and-pricing'); ?></button>
             </div>
             <?php
         }
         ?>
     </div>
-    <button id="add_new_addon"><?php _e('Add New Addon', 'product-add-ons-extras'); ?></button>
+    <button id="add_new_addon"><?php _e('Add New Addon', 'products-extra-items-and-pricing'); ?></button>
     <?php
 }
 

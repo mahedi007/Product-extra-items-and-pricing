@@ -14,7 +14,7 @@ function pae_display_add_ons() {
     if ($addons) {
         ?>
         <div class="pae-add-ons">
-            <h3><?php _e('Extra Items?', 'product-add-ons-extras'); ?></h3>
+            <h3><?php _e('Extra Items?', 'products-extra-items-and-pricing'); ?></h3>
             <?php
             foreach ($addons as $index => $addon) {
                 ?>
