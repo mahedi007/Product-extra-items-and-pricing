@@ -1,0 +1,113 @@
+
+/* Frontend Styles */
+.pae-add-ons {
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.pae-add-ons h3 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    color: #333;
+}
+
+.pae-add-ons p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.pae-add-ons label input {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.pae-add-ons label {
+    font-size: 1.2em;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: linear-gradient(180deg, #f7cb15 0%, #f7cb15 50%, #f7cb15 50%, #f7cb15 100%);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pae-add-ons label:hover {
+    background: linear-gradient(360deg, #f7a815 0%, #f7cb15 50%, #f7cb15 50%, #f7cb15 100%);;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pae-add-ons input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pae-add-ons input[type="checkbox"]:checked {
+    transform: scale(1.4);
+    box-shadow: 0 0 5px #f7cb15;
+}
+
+.pae-add-ons input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db;
+}
+
+.woocommerce-Price-amount {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e67e22;
+}
+
+/* Admin Meta Box Styles */
+
+.pae_addon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.pae_addon input[type="text"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.pae_addon .remove_addon {
+    padding: 5px 10px;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.pae_addon .remove_addon:hover {
+    background: #c0392b;
+}
+
+#add_new_addon {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 15px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#add_new_addon:hover {
+    background: #2980b9;
+}
