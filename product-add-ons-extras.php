@@ -4,7 +4,7 @@
  * Description: A plugin that allows customers to add extra items with pricing for products.
  * Version: 1.0.0
  * Author: Mahedi Hasan
- * Text Domain: product-add-ons-extras
+ * Text Domain: products-extra-items-and-pricing
  */
 
 
@@ -29,6 +29,6 @@ function pae_deactivate() {
 }
 
 function pae_init() {
-    load_plugin_textdomain('product-add-ons-extras', false, basename(dirname(__FILE__)) . '/languages');
+    load_plugin_textdomain('products-extra-items-and-pricing', false, basename(dirname(__FILE__)) . '/languages');
 }
 add_action('plugins_loaded', 'pae_init');
