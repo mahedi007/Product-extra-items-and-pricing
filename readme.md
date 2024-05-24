@@ -24,7 +24,7 @@ Product Extra Items and Pricing is a WooCommerce plugin designed to enhance the 
 ## Usage
 
 1. Navigate to the product edit page in WooCommerce.
-2. Find the 'Product Add-Ons and Extras' meta box.
+2. Find the 'Product Extra Items and Pricing' meta box.
 3. Add your desired add-ons by entering a name and price for each.
 4. Save the product.
 5. The add-ons will appear on the product page, where customers can select them, and the price will update accordingly.

@@ -2,7 +2,7 @@
 function pae_add_custom_box() {
     add_meta_box(
         'pae_sectionid',
-        __('Product Add-ons and Extras', 'product-add-ons-extras'),
+        __('Product Extra Items and Pricing', 'product-add-ons-extras'),
         'pae_custom_box_html',
         'product'
     );
